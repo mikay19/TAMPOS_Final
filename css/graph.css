@@ -450,6 +450,7 @@ body {
   color: #363130;
   text-align: center;
   width: 239px;
+  flex-direction: column;
 }
 
 .logout-buttons {
@@ -457,7 +458,18 @@ body {
   flex-direction: column;
   gap: 26px;
   width: 100%;
+  text-align: center;
+  justify-content: center;
+
 }
+.logout-btn-yes,
+.logout-btn-no {
+  width: 208px;
+  text-align: center;
+  margin: 0 auto;              /* Ensures centering if parent allows it */
+  display: block;              /* Prevent inline interference */
+}
+
 
 .logout-btn-yes {
   background: linear-gradient(
